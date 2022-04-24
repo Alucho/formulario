@@ -7,14 +7,33 @@
     <title>Formulário</title>
 </head>
 <body>
-    <form>
-        <div class="name"></div>
-        <div class="surname"></div>
-        <div class="birthday"></div>
-        <div class="fone"></div>
-        <div class="email"></div>
-
-
+    <form class="form">
+        <div class="name">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+        </div>
+        <div class="surname">
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" id="sobrenome" name="sobrenome" placeholder="Digite seu sobrenome" required>
+        </div>
+        <div class="birthday">
+            <label for="datanasc">Data de nasc:</label>
+            <input type="date" id="datanasc" name="datanasc" required>
+        </div>
+        <div class="fone">
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="fone" name="fone" placeholder="Digite seu telefone" required>
+        </div>
+        <div class="email">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+        </div>
+        <div class="favOs">
+            <input type="radio" id="windows" name="favOs" value="windows">
+            <label for=""
+        </div>
+        <div class="dev_web"></div>
+        <div class="btn"></div>
     </form>
 </body>
 </html>
