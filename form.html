@@ -29,11 +29,36 @@
             <input type="email" id="email" name="email" placeholder="Digite seu email" required>
         </div>
         <div class="favOs">
-            <input type="radio" id="windows" name="favOs" value="windows">
-            <label for=""
+            <label>SO favorito:</label>
+            <input type="radio" id="windows" name="os" value="windows">
+            <label for="windows">Windows</label>
+            <input type="radio" id="linux" name="os" value="linux">
+            <label for="linux">Linux</label>
+            <input type="radio" id="mac" name="os" value="mac">
+            <label for="mac">MAC</label>
         </div>
-        <div class="dev_web"></div>
-        <div class="btn"></div>
+        <div class="techs">
+            <label>Quais tecnologias você utiliza?</label>
+            <input type="checkbox" name="tech1" id="tech1" value="HTML">
+            <label for="tech1">HTML</label>
+            <input type="checkbox" name="tech2" id="tech2" value="CSS">
+            <label for="tech2">CSS</label>
+            <input type="checkbox" name="tech3" id="tech3" value="Javascript">
+            <label for="tech3">Javascript</label>
+            <input type="checkbox" name="tech4" id="tech4" value="PHP">
+            <label for="tech4">PHP</label>
+            <input type="checkbox" name="tech5" id="tech5" value="Java">
+            <label for="tech5">Java</label>
+            <input type="checkbox" name="tech6" id="tech6" value="Python">
+            <label for="tech6">Python</label>
+        </div>
+        <div class="textCont">
+            <label>Diga algo:</label>
+            <textarea class="areaTexto"></textarea>
+        </div>
+        <div class="btn">
+            <input type="submit" value="Enviar">
+        </div>
     </form>
 </body>
 </html>
