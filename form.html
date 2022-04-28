@@ -4,31 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="form.css">
     <title>Formulário</title>
 </head>
 <body>
     <form class="form">
-        <div class="name">
+        <div class="divCont name">
             <label for="nome">Nome:</label>
             <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
         </div>
-        <div class="surname">
+        <div class="divCont surname">
             <label for="sobrenome">Sobrenome:</label>
             <input type="text" id="sobrenome" name="sobrenome" placeholder="Digite seu sobrenome" required>
         </div>
-        <div class="birthday">
+        <div class="divCont birthday">
             <label for="datanasc">Data de nasc:</label>
             <input type="date" id="datanasc" name="datanasc" required>
         </div>
-        <div class="fone">
+        <div class="divCont fone">
             <label for="telefone">Telefone:</label>
             <input type="tel" id="fone" name="fone" placeholder="Digite seu telefone" required>
         </div>
-        <div class="email">
+        <div class="divCont email">
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" placeholder="Digite seu email" required>
         </div>
-        <div class="favOs">
+        <div class="divCont favOs">
             <label>SO favorito:</label>
             <input type="radio" id="windows" name="os" value="windows">
             <label for="windows">Windows</label>
@@ -37,7 +38,7 @@
             <input type="radio" id="mac" name="os" value="mac">
             <label for="mac">MAC</label>
         </div>
-        <div class="techs">
+        <div class="divCont techs">
             <label>Quais tecnologias você utiliza?</label>
             <input type="checkbox" name="tech1" id="tech1" value="HTML">
             <label for="tech1">HTML</label>
@@ -52,11 +53,11 @@
             <input type="checkbox" name="tech6" id="tech6" value="Python">
             <label for="tech6">Python</label>
         </div>
-        <div class="textCont">
+        <div class="divCont textCont">
             <label>Diga algo:</label>
             <textarea class="areaTexto"></textarea>
         </div>
-        <div class="btn">
+        <div class="divCont btn">
             <input type="submit" value="Enviar">
         </div>
     </form>
